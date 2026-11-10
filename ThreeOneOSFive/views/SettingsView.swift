@@ -17,7 +17,7 @@ struct SettingsView: View {
                         AppLogo()
 
                         VStack(alignment: .leading, spacing: 3) {
-                            Text("Argent").font(.headline)
+                            Text("ZonaCheatsX").font(.headline)
                             Text(language.text("common.version", appVersion))
                                 .font(.subheadline)
                                 .foregroundStyle(.secondary)
@@ -106,25 +106,25 @@ struct SettingsView: View {
                     creditsRow(
                         name: "Discord",
                         role: language.text("social.github_role"),
-                        url: "https://discord.gg/AJdK8NtDBN"
+                        url: "https://discord.gg/KBA3QjDPsu"
                     )
                     creditsRow(
-                        name: "Aleizn",
+                        name: "ZonaCheat",
                         role: language.text("social.iosvn_role"),
-                        url: "wa.me/51992621601"
+                        url: "https://discord.gg/KBA3QjDPsu"
                     )
                 }
 
                 Section(language.text("settings.credits")) {
                     creditsRow(
-                        name: "aleizn",
+                        name: "ZonaCheat",
                         role: language.text("credit.filzaslop"),
-                        url: "wa.me/51992621601"
+                        url: "https://discord.gg/KBA3QjDPsu"
                     )
                     creditsRow(
                         name: "discord",
                         role: language.text("credit.forcequit"),
-                        url: "https://discord.gg/AJdK8NtDBN"
+                        url: "https://discord.gg/KBA3QjDPsu"
                     )
                 }
             }
