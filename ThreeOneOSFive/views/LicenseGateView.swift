@@ -26,7 +26,7 @@ struct LicenseGateView: View {
             AppTheme.pageBackground.ignoresSafeArea()
 
             VStack(spacing: 20) {
-                Image("ZonaCheatsXLogo")
+                Image("ArgentLogo")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 140, height: 140)
