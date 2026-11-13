@@ -15,7 +15,7 @@ All notable user-facing changes are documented in this file.
 ### Changed
 
 - Patch creation from an app-container file or folder now captures the stable bundle identifier and editable destination tree automatically.
-- Patch package imports no longer use the previous fixed payload-size or file-count ceiling; practical device storage and memory still apply.
+- Patch package imports nos longer use the previous fixed payload-size or file-count ceiling; practical device storage and memory still apply.
 - Files and Patch screens now use consistent grouped cards, compact icons, balanced nested rows, and stable search presentation.
 - Legacy v1 `.3105` packages remain importable and usable.
 
